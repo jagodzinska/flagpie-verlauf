@@ -10,8 +10,15 @@ Spiel die Flagge nach einem Tipp nur kurz über dem Kuchendiagramm ein.
 
 ## Installation
 
-Tampermonkey → Neues Skript → Inhalt von `flagpie-verlauf.user.js` einfügen
-und speichern. Danach `https://flagpie.net/` neu laden.
+Bei installiertem Tampermonkey diese URL im Browser öffnen — der Installations-
+Dialog geht dann von selbst auf:
+
+<https://raw.githubusercontent.com/jagodzinska/flagpie-verlauf/main/flagpie-verlauf.user.js>
+
+`@updateURL`/`@downloadURL` zeigen auf dieselbe Datei, Tampermonkey holt sich
+Updates also automatisch von `main`. Dafür muss die `@version` im Header bei
+jeder Änderung hochgezählt werden.
+Danach `https://flagpie.net/` neu laden.
 
 ## Wie es funktioniert
 

@@ -1,10 +1,14 @@
 // ==UserScript==
 // @name         Flagpie Flaggen-Verlauf
 // @namespace    https://github.com/jagodzinska/flagpie-verlauf
-// @version      1.0.0
+// @version      1.0.1
 // @description  Zeigt auf flagpie.net die bereits geratenen Flaggen dauerhaft als Verlauf rechts neben dem Spiel an, statt sie nur kurz über dem Kuchendiagramm einzublenden.
 // @author       jago/claude
 // @license      MIT
+// @homepageURL  https://github.com/jagodzinska/flagpie-verlauf
+// @supportURL   https://github.com/jagodzinska/flagpie-verlauf/issues
+// @downloadURL  https://raw.githubusercontent.com/jagodzinska/flagpie-verlauf/main/flagpie-verlauf.user.js
+// @updateURL    https://raw.githubusercontent.com/jagodzinska/flagpie-verlauf/main/flagpie-verlauf.user.js
 // @match        https://flagpie.net/*
 // @icon         https://flagpie.net/favicon.png
 // @run-at       document-idle
